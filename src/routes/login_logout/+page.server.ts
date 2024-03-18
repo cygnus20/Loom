@@ -4,7 +4,7 @@ import { fail, redirect } from "@sveltejs/kit"
 import { AuthApiError } from '@supabase/supabase-js'
 import { page } from '$app/stores'
 
-let redirect;
+//let redirect;
 
 export const actions = {
     login: async (event) => {
